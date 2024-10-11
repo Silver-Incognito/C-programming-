@@ -1,13 +1,18 @@
-//do while loop control
-/*Name:Queen Esther Kinyanjui
-Ref.no:CT101/G/22453/24*/
+//do while loop 
+/*
+Name:OWAYA E AUGUSTINE
+REG:CT101/G/23524//24
+*/
 #include<stdio.h>
+
 int main(){
   int start,stop,sum=0;
+  
   printf("Enter start:");
   scanf("%d",&start);
   printf("Enter when to stop:");
   scanf("%d",&stop);
+  
   do {printf("%d\n",start);
   sum=sum+start;
   sum+=start;
@@ -16,11 +21,6 @@ int main(){
   while(start,start<=stop);
   
   printf("The sum%d",sum);
+  
   return 0;
-  }
-
-
-// Language:C 
-// ProjectType:0 
-// Copy the full code and open the CCoder APP to run it. 
-// CCoder APP download link：https://play.google.com/store/apps/details?id=com.ikou.ccoding 
+  } 
